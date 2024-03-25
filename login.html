@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> <!-- Para referenciar iconos user y password -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>WalletCat:Login</title>
+    
+</head>
+<body>
+        <div class="contenedor-formulario col- col-sm- col-md-	col-lg-	col-xl-	col-xxl-">
+            <form id="formulario_login" action="">
+                <h1>Bienvenido a WalletCat</h1>
+                <div class="input-box">
+                    <input type="text" id="username" placeholder="Usuario" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" placeholder="Contraseña" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="recordar-contrasena">
+                    <label><input type="checkbox" id="visible">Mostrar contraseña</label>
+                    <a href="#">¿Olvidaste tu Contraseña?</a>
+                </div>
+                <button type="submit" class="btn" id="submit">Iniciar sesion</button>
+                <div class="registro-link" id="registro"> 
+                    <p>¿No tienes cuenta? <a href="pages/registro.html">Regístrate</a></p>
+                </div>
+            </form>
+        </div>
+        
+<script src="assets/js/login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
